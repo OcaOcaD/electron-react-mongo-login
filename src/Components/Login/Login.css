@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-body {
+.login {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -18,8 +18,18 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #004F53;
+  color: #12F5FE;
+  border: 1px solid #12F5FE;
   margin: 0;
-  padding: 0;
-  background-color: #1d1d1b;
+  margin-top: 60px;
+  width: auto;
+  height: auto;
+  min-width: 400px;
+  max-width: 400px;
+  min-height: 400px;
 }
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=Login.css.map */

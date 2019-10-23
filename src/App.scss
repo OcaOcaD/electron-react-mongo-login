@@ -1,0 +1,9 @@
+@import './variables';
+
+.App {
+  @include flexCenter( column );
+  justify-content: flex-start;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}

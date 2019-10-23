@@ -1,0 +1,7 @@
+@import './variables';
+body {
+  @include flexCenter( column );
+  margin: 0;
+  padding: 0;
+  background-color: $g;
+}

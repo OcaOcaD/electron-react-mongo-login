@@ -1,0 +1,19 @@
+@import '../../variables';
+.titleContainer{
+    @include flexCenter( row );
+    width: auto;
+    height: auto;
+    color: $b;
+    font-size: 60px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    h1{
+        font-size: inherit;
+        color: inherit;
+        margin-right: 0.5em;
+    }
+    .icon{
+        font-size: inherit;
+        color: $lb;
+    }
+}

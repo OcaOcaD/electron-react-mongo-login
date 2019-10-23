@@ -1,0 +1,15 @@
+@import '../../variables';
+.login{
+    @include flexCenter( column );
+    justify-content: space-evenly;
+    background-color: $db;
+    color: $b;
+    border: 1px solid $b;
+    margin: 0;
+    margin-top: 60px;
+    width: auto;
+    height: auto;
+    min-width: 400px;
+    max-width: 400px;
+    min-height: 400px;
+}

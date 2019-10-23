@@ -1,0 +1,20 @@
+@import '../../variables';
+.inputContainer{
+    height: auto;
+    width: 240px;
+    @include flexCenter( column );
+    label{
+        @include flexCenter( column );
+        align-items: flex-start;
+        height: 40px;
+        width: 100%;
+    }
+    .Input{
+        border: 1px solid $b;
+        height: 40px;
+        width: 100%;
+        background: $lb;
+        text-indent: 10px;
+        outline: $g;
+    }
+}

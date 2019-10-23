@@ -1,0 +1,19 @@
+@import '../../variables';
+.button{
+    @include flexCenter( row );
+    background-color: $g;
+    color: $lb;
+    height: 40px;
+    width: 240px;
+    border: 1px solid $lb;
+    cursor: pointer;
+    transition: 
+        background-color 0.3s ease-out,
+        color 0.3s ease-out,
+        border 0.3s ease-out;
+    &:hover{
+        background-color: $lb;
+        color: $db;
+        border: 1px solid $lb;
+    }
+}
